@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Match the simple teal theme from screenshots */
+.nav-teal {
+  background-color: #00868a;
+}
+
+.btn-teal {
+  background-color: #00868a;
+  color: white;
+}
+
+.btn-red {
+  background-color: #cc3333;
+  color: white;
+}
+
+.btn-purple {
+  background-color: #800080;
+  color: white;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.sidebar-heading {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  border-bottom: 2px solid #00d2d3;
+  padding-bottom: 4px;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #00868a;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #005f63;
+}
